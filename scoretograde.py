@@ -1,0 +1,11 @@
+def score_grade(grades):
+    if grades>=90:
+       return "A"
+    elif 90>grades>=80:
+      return  "B"
+    elif 80>grades>=0:
+       return "C"
+    elif 70>grades>=60:
+       return "D"
+    elif grades<60:
+       return "F"
